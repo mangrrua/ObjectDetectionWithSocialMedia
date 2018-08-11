@@ -13,7 +13,7 @@ class CNNModel:
 
     def __init__(self):
         """
-        Load downloaded VGG16 model from project folder.
+        Download VGG16 Model from Github
         """
         self._model = VGG16(weights='imagenet')
 
