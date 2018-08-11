@@ -21,7 +21,7 @@ class CNNModel:
         """
         This function provides prepare image before predict image.
         :param img: Downloaded image from url
-        :return: Processing image
+        :return: Processed image
         """
         r_img = img.resize((224, 224), Image.ANTIALIAS)
         r_img = img_to_array(r_img)
