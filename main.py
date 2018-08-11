@@ -24,4 +24,4 @@ if __name__ == "__main__":
         print("Application is starting...")
         app.run()   # start flask web service
     else:
-        print("While occurs error connecting to mongodb or authentication to twitter...")
+        print("While occurs error connecting to mongodb or authentication to twitter or instagram...")
