@@ -16,15 +16,11 @@ def index():
 
 @app.route("/predict", methods=['POST', 'GET'])
 def predict():
-    if request.method == 'POST':
-        img_file = request.files.get('imagefile', '')
-        print(img_file)
-        # read img with open
-        # return prediction result
+    return "If you want to predict an image with your web or desktop app, you can make predict under this url."
 
 
 if __name__ == "__main__":
-    if manage_procs.start():    # process.start():
+    if manage_procs.start():
         print("Application is starting...")
         app.run()   # start flask web service
     else:
