@@ -1,6 +1,5 @@
 from keras.preprocessing.image import img_to_array
 from keras.applications.vgg16 import VGG16
-from keras.applications.inception_resnet_v2 import InceptionResNetV2
 from keras.applications.imagenet_utils import decode_predictions, preprocess_input
 from keras.models import load_model
 import numpy as np
@@ -16,11 +15,7 @@ class CNNModel:
         """
         Load downloaded VGG16 model from project folder.
         """
-        self._model = InceptionResNetV2(weights='imagenet')
-        # self._model.save('inception_model.h5')
-        # self._model = VGG16(weights='imagenet')
-        # self._vgg_model.save('vgg16_model.h5')
-        # self._model = load_model('inception_model.h5')
+        self._model = VGG16(weights='imagenet')
 
     def preprocess_img(self, img):
         """
