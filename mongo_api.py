@@ -4,7 +4,7 @@ from pymongo import errors
 """
     Define mongodb uri and db port for connect to mongodb.
 """
-MONGO_URI = "YOUR MONGO URI"
+MONGO_URI = "YOUR_MONGO_URI"
 DB_PORT = 27017
 
 """
@@ -16,9 +16,9 @@ class MongoAPI:
         """
         Define collection names
         """
-        self._db_name = "dist-sys-project"
-        self._col_tw_img_inf_name = "twitter-img-informations"
-        self._col_inst_img_inf_name = "instagram-img-informations"
+        self._db_name = "YOUR_DB_NAME"
+        self._col_tw_img_inf_name = "YOUR_COLLECTION_NAME"
+        self._col_inst_img_inf_name = "YOUR_COLLECTION_NAME"
         self._col_logs_name = "logs"
 
         self._client = None
