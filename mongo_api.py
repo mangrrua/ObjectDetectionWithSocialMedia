@@ -106,24 +106,6 @@ class MongoAPI:
         except errors.OperationFailure:
             print("Error for get no replied data instagram")
 
-    # def inst_update_docs_after_replied(self):
-    #     find_query = {
-    #         "is_replied": "No"
-    #     }
-    #
-    #     update_query = {
-    #         "$set": {
-    #             "is_replied": "Yes"
-    #         }
-    #     }
-    #
-    #     try:
-    #         self._col_inst_img_inf.update_many(find_query, update_query)
-    #         return True
-    #     except errors.OperationFailure:
-    #         print("Error for update docs after replied data instagram")
-    #         return False
-
     def inst_update_doc_after_replied(self, doc_id):
         """
         This function provides update replied document in mongodb
