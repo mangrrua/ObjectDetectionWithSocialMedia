@@ -11,7 +11,7 @@ app = Flask(__name__)
 # Welcome page
 @app.route("/")
 def index():
-    return "Welcome the Distributed Project Web Services"
+    return "Welcome the Web Service"
 
 
 @app.route("/predict", methods=['POST', 'GET'])
