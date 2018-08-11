@@ -8,14 +8,14 @@ In the replied comment, predicted object name and its accuracy are written.
 
 ----- Requirements -----
 
-1- Python 3 
-2- Numpy
-3- PIL
-4- Tensorflow
-5- Keras
-6- Flask
-7- Tweepy (for connect to Twitter api)
-8- Pymongo
+* 1- Python 3 
+* 2- Numpy
+* 3- PIL
+* 4- Tensorflow
+* 5- Keras
+* 6- Flask
+* 7- Tweepy (for connect to Twitter api)
+* 8- Pymongo
 
 -> If the libraries described above have been successfully installed, you can run this project. Also, you must have a mongodb database, twitter api keys and instagram access token.
 
