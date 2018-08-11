@@ -17,7 +17,7 @@ class TStreamListener(StreamListener):
             screen_name = status._json['user']['screen_name']
 
             self.mongo_api.tw_insert(img_url=img_url, tweet_id=tweet_id, screen_name=screen_name)
-            print("aldi")
+            print("The image was taken successfully!")
         else:
             print("Does not found image in twitter message!")
 
