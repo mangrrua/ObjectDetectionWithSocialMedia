@@ -18,3 +18,6 @@ In the replied comment, predicted object name and its accuracy are written.
 8- Pymongo
 
 -> If the libraries described above have been successfully installed, you can run this project. Also, you must have a mongodb database, twitter api keys and instagram access token.
+
+* Optional: If you want to upload this project to Google App Engine, you must create requirements.txt(libraries described above with its versions) and .yaml file. For more informations, you can see this links; https://cloud.google.com/appengine/docs/standard/python/config/appref
+https://cloud.google.com/appengine/docs/flexible/python/using-python-libraries
