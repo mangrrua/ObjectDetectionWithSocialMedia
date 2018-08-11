@@ -32,7 +32,7 @@ class CNNModel:
     def predict(self, img):
         """
         This function predict object in image with VGG16 model.
-        :param img: Processing image
+        :param img: processed image
         :return: Prediction result (Prediction name and its accuracy)
         """
         predictions = self._model.predict(img)
