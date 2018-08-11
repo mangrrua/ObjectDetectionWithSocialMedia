@@ -29,7 +29,7 @@ class TwitterAPI:
 
     def start_stream(self):
         my_stream = Stream(auth=self._tw_api.auth, listener=self._stream_listener)
-        my_stream.filter(track=['milihi'], async=True)
+        my_stream.filter(track=['ddist'], async=True)
 
     def reply_tweet(self, message, tweet_id):
         self._tw_api.update_status(message, tweet_id)
